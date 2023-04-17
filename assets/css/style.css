@@ -274,11 +274,17 @@ body.container-spa4 .icons8-regular{
     overflow: hidden;
     border-radius: var(--rounded1);
 }
-.card-skill.ready{
-    --card-bar: rgb(236, 107, 239);
+.card-skill.beginner{
+    --card-bar: rgb(99, 255, 151);
+    --text-shadow: rgb(25, 202, 85);
 }
-.card-skill.learning{
-    --card-bar: rgb(254, 183, 3);
+.card-skill.intermediate{
+    --card-bar: rgb(255, 208, 88);
+    --text-shadow: rgb(254, 183, 3);
+}
+.card-skill.expert{
+    --card-bar: rgb(253, 119, 255);
+    --text-shadow: var(--txt);
 }
 .card-skill .header{
     padding: 0 14px;
@@ -290,9 +296,11 @@ body.container-spa4 .icons8-regular{
     letter-spacing: 1px;
 }
 .card-skill .header p span{
+    letter-spacing: 1px;
     font-weight: 600;
-    color: rgb(236, 107, 239);
-    text-shadow: 0px 0px 6px var(--txt);
+    text-transform: uppercase;
+    color: var(--card-bar);
+    text-shadow: 0px 0px 8px var(--text-shadow);
 }
 .card-skill .main{
     display: flex;
@@ -301,13 +309,16 @@ body.container-spa4 .icons8-regular{
     padding: 14px;
 }
 .card-skill .progress-bar{
+    display: none;
+}
+.card-skill.bar .progress-bar{
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: end;
     height: 100%;
 }
-.card-skill .progress-bar .bar span{
+.card-skill.bar .progress-bar .bar span{
     font-size: 12px;
     color: white;
     position: absolute;
@@ -317,7 +328,7 @@ body.container-spa4 .icons8-regular{
     right: -10px;
     bottom: 10px;
 }
-.card-skill .progress-bar .bar{
+.card-skill.bar .progress-bar .bar{
     position: absolute;
     height: 3px;
     width: var(--bar);
@@ -326,9 +337,6 @@ body.container-spa4 .icons8-regular{
     background-color: var(--card-bar);
     animation: bar var(--trns-09) both;
     animation-delay: var(--trns-0);
-}
-.card-skill .header p span{
-    color: var(--card-bar);
 }
 .card-skill .main .logo img{
     width: 64px;

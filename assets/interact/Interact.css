@@ -341,6 +341,7 @@
 .icons8-regular.business {--icon-img: url('../icons/fluent/system_regular/icons8_business.ico');}
 .icons8-regular.comments {--icon-img: url('../icons/fluent/system_regular/icons8_comments.ico');}
 .icons8-regular.linkedin {--icon-img: url('../icons/fluent/system_regular/icons8_linkedin.ico');}
+.icons8-regular.fiverr {--icon-img: url('../icons/fiverr.png');}
 .icons8-regular.bar-chart {--icon-img: url('../icons/fluent/system_regular/icons8_bar_chart.ico');}
 
 /* fluent filled */
@@ -396,6 +397,7 @@
 .icons8-filled.business {--icon-img: url('../icons/fluent/system_filled/icons8_business.ico');}
 .icons8-filled.comments {--icon-img: url('../icons/fluent/system_filled/icons8_comments.ico');}
 .icons8-filled.linkedin {--icon-img: url('../icons/fluent/system_filled/icons8_linkedin.ico');}
+.icons8-filled.fiverr {--icon-img: url('../icons/fiverr.png');}
 .icons8-filled.bar-chart {--icon-img: url('../icons/fluent/system_filled/icons8_bar_chart.ico');}
 .icons8-filled.approval {--icon-img: url('../icons/fluent/system_filled/icons8_approval.ico');}
 
