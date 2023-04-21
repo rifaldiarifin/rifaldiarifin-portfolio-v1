@@ -262,6 +262,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: var(--icon-img);
+    display: block;
     min-width: var(--ratio);
     min-height: var(--ratio);
     width: var(--ratio);

@@ -350,7 +350,7 @@ body.container-spa4 .icons8-regular{
     justify-content: flex-start;
     align-items: flex-start;
 }
-.card-skill .main .detail h1{
+.card-skill .main .detail h2{
     color: white;
     font-size: 24px;
     font-weight: 500;
@@ -594,7 +594,7 @@ body.container-spa4 .icons8-regular{
         filter: blur(1px);
     }
 }
-.skill-list h1{
+.skill-list h2{
     color: white;
     font-weight: 500;
     letter-spacing: 0.6px;
@@ -705,7 +705,7 @@ body.container-spa4 .icons8-regular{
     transform: translateY(250px) scaleY(0.4);
     transition: var(--trns-03);
 }
-.card-project .detail-project h1{
+.card-project .detail-project h2{
     font-size: 20px;
     font-weight: 700;
     background: var(--main-gradient3-color);
@@ -727,7 +727,7 @@ body.container-spa4 .icons8-regular{
     transform: scale(1.2);
     filter: brightness(0.4) blur(8px);
 }
-.card-project:hover h1{
+.card-project:hover h2{
     transform: translateY(0px) scaleY(1);
     transition: var(--trns-03);
 }
@@ -758,7 +758,7 @@ body.container-spa4 .icons8-regular{
     gap: 10px;
 }
 
-#section5 h1{
+#section5 h2{
     font-size: 24px;
     font-weight: 600;
     text-transform: uppercase;
@@ -828,7 +828,7 @@ body.container-spa4 nav ul li{
     /* cursor: pointer; */
     z-index: 1;
 }
-body.container-spa4 nav ul .point-nav{
+body.container-spa4 nav .point-nav{
     position: absolute;
     display: block;
     width: var(--list-ratio);
@@ -887,7 +887,7 @@ body.container-spa4 nav ul li.active a div:first-child{
     .cardbox-project{
         grid-template-columns: 1fr;
     }
-    .card-project .detail-project h1{
+    .card-project .detail-project h2{
         font-size: 18px;
     }
     .card-project .detail-project p{
@@ -1070,7 +1070,7 @@ body.container-spa4 nav ul li.active a div:first-child{
     }
 }
 @media (max-width: 500px){
-    .card-skill .main .detail h1{
+    .card-skill .main .detail h2{
         font-size: 18px;
     }
     .card-skill .main .detail p{
