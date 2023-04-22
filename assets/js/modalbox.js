@@ -39,18 +39,7 @@ const closeModal = async (modalID) => {
     await clearTimeout();
     let sidenow = "fadeout-now";
     let sideafter = "fadeout-after";
-
-    // header.classList.remove(sidenow);
-    // header.classList.remove(sideafter);
-    // clearClass(section_list, sidenow);
-    // clearClass(section_list, sideafter);
-    // modalID.classList.remove(sidenow);
-    // modalID.classList.remove(sideafter);
-
-    // body.classList.remove("scroll-off");
-    // header.classList.remove("hide");
-    // removeClass(section_list, "hide");
-    // miniNav.classList.remove("hide");
+    
     modalScreen.classList.add(sidenow);
 
     setTimeout(() => {

@@ -24,6 +24,7 @@ window.addEventListener("scroll", e => {
 
 Cookies.set('foo', 'bar', { 'samesite': 'strict' });
 
+// Scrollreveal config
 
 const defaultOption = {
     distance: '100px',
