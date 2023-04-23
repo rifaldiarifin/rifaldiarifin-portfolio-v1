@@ -19,13 +19,16 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/logos/r/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/logos/r/favicon-16x16.png">
     <link rel="manifest" href="/assets/img/logos/r/site.webmanifest">
-    <link rel="stylesheet" href="/assets/interact/Interact.css">
+    <link rel="stylesheet" href="/assets/interact/interact.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="/assets/js/js.cookie-2.2.0.min.js">
+        Cookies.set('foo', 'bar', { 'samesite': 'strict' });
+    </script>
 </head>
 <body class="container-spa4 dark">
     <header>
@@ -210,7 +213,7 @@ I started learning programming starting in 2021, I learned programming on my own
                     <textarea name="Message" id="message" aria-label="Message" required></textarea>
                     <span style="font-family: var(--second-font); font-size: 12px;" data-msginput=" / Cannot be empty!">Type your message</span>
                 </label>  
-                <button type="submit" class="btn-filled default-gradient primbtn mrgn-t-20 mrgn-b-30" data-btnlabel="Submit"></button>
+                <button type="submit" class="btn-filled default-gradient primbtn mrgn-t-20 mrgn-b-30" data-btnlabel="Submit" aria-label="Submit Submission"></button>
             </form>
         </div>
     </section>    
@@ -543,7 +546,6 @@ I started learning programming starting in 2021, I learned programming on my own
         </div>
     </div>
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="/assets/js/js.cookie-2.2.0.min.js"></script>
     <script src="/assets/interact/interact.js"></script>
     <script src="/assets/interact/interact.renderui.js"></script>
     <script src="/assets/js/nav.js"></script>

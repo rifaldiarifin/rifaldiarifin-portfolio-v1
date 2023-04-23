@@ -22,8 +22,6 @@ window.addEventListener("scroll", e => {
     changeNavPoint()
 });
 
-Cookies.set('foo', 'bar', { 'samesite': 'strict' });
-
 // Scrollreveal config
 
 const defaultOption = {
