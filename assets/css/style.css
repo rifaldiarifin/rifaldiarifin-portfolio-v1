@@ -672,7 +672,7 @@ body.container-spa4 .icons8-regular{
     transform: translateY(250px) scaleY(0.4);
     transition: var(--trns-03);
 }
-.techno h6{
+.techno h3{
     font-size: 14px;
     color: rgba(255, 255, 255, 0.7);
     font-family: var(--second-font);
@@ -684,7 +684,7 @@ body.container-spa4 .icons8-regular{
     font-size: 12px;
     gap: 6px;
 }
-.techno-icon h6{
+.techno-icon h3{
     color: white;
 }
 .techno-icon img{
