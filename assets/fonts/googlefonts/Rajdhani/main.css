@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "ThirdFont";
+    font-style: normal;
+    font-weight: 300;
+    src: url("Rajdhani-Light.ttf");
+}
+@font-face {
+    font-family: "ThirdFont";
+    font-style: normal;
+    font-weight: 400;
+    src: url("Rajdhani-Regular.ttf");
+}
+@font-face {
+    font-family: "ThirdFont";
+    font-style: normal;
+    font-weight: 500;
+    src: url("Rajdhani-Medium.ttf");
+}
+@font-face {
+    font-family: "ThirdFont";
+    font-style: normal;
+    font-weight: 600;
+    src: url("Rajdhani-SemiBold.ttf");
+}
+@font-face {
+    font-family: "ThirdFont";
+    font-style: normal;
+    font-weight: 700;
+    src: url("Rajdhani-Bold.ttf");
+}

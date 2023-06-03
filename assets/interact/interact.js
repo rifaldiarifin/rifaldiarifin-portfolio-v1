@@ -1,3 +1,4 @@
+/* eslint-disable */
 "use strict"
 
 const body = document.querySelector("body");
@@ -843,8 +844,6 @@ window.addEventListener("mousedown", (e) => {
             }, 600);
         }
     }
-
-
     // 
 });
 
@@ -1332,9 +1331,7 @@ const interAlertConfirm = ({
                                 <span class="separate"></span>
                                 <div class="alert-action">
                                     <button class="btn-filled" id="true1" data-btnLabel="${trueLabel}"></button>
-                                    <button class="btn-regular"id="false0">
-                                        <p>${falseLabel}</p>
-                                    </button>
+                                    <button class="btn-regular" id="false0" data-btnLabel="${falseLabel}"></button>
                                 </div>
                             </div>`;
         body.insertBefore(alertUI, body.firstChild);
