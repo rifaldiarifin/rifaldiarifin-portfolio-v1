@@ -758,9 +758,12 @@ header .box-2{
     width: fit-content;
     transition: var(--trns-03);
 }
+#viewallproject .card-project .detail-project p{
+    font-size: 17px;
+}
 .card-project .detail-project p{
     color: white;
-    font-size: 24px;
+    font-size: 22px;
     transform: translateY(250px) scaleY(0.4);
     font-family: var(--third-font);
     transition: var(--trns-03);
@@ -1277,5 +1280,8 @@ footer .link:hover span::before{
     }
     .card-skill .progress-bar .bar span{
         font-size: 11px;
+    }
+    #viewallproject .card-project .detail-project p{
+        font-size: 14px;
     }
 }
