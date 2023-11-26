@@ -8,6 +8,9 @@ body.container-spa4 p{
     margin: 0;
     padding: 0;
 }
+.icons8-filled.fiverr{
+    background-image: url("../../icons/fiverr.png");
+}
 a,
 li,
 span,
